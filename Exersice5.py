@@ -8,7 +8,7 @@ while remaining_attempts > 0:
         print("Access granted. Welcome to the system!")
         break # Exit the loop immediately
     else:
-        remainin_attempts -= 1
+        remaining_attempts -= 1
         if remaining_attempts > 0:
             print(f"Incorrect password. You have {remaining_attempts} attempt(s) left.\n")
         else:
